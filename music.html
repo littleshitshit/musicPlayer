@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2349088_n70tnedy08g.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Document</title>
+
+
+</head>
+        
+<body>
+    <div id="lrc">
+        <div id="text"></div>
+    </div>
+    <div id="control">
+        <div  id="play"><p ><i id="playI" class="iconfont icon-bofangqi-bofang"></i></p></div>
+        <div id="time">
+            <p id="current">00:00</p>
+            <div id="timeLine"  onmouseup="mUp(event)" onmouseover="ballShow()" onmouseleave="ballHide()">
+                <div id="currentTime"></div>
+            </div>
+            <p id="duration">00:00</p>
+        </div>
+        
+    </div>
+    
+    <audio id="audio" >
+    </audio>
+</body>
+<script  src="js/control.js"></script>
+
+
+</html>
